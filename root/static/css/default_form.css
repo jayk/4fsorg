@@ -1,0 +1,84 @@
+/* @override http://feebs.dev.ionzero.com:3000/static/site.css */
+.fs_input {
+	border-style: solid;
+	border-width: 1px;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+.fs_label {
+    display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	width: 120px;
+}
+
+.fs_formfieldline {
+	min-height: 25px;
+	width: 500px;
+	margin-bottom: 6px;
+}
+
+.fs_checkbox_container {
+    margin-bottom: 6px;
+}
+
+.fs_checkboxes {
+    border-width: 1px;
+    border-style: dotted;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+}
+
+.fs_checkbox {
+    float: left;
+    width: 180px;
+}
+
+.fs_checkbox_row {
+    clear: both;
+}
+
+.fs_toggle_label_div {
+    display: inline-block;
+}
+
+.fs_toggle .fs_checkboxes  {
+    display: inline-block;
+}
+
+.fs_toggle .fs_checkbox {
+    width: 100px;
+}
+
+.fs_toggle .fs_checkboxes {
+    border-width: 0px;
+    padding: 0px;
+    padding-left: 0px;
+}
+
+.fs_trigger.fs_formfieldline {
+    display: inline-block;
+    width: auto;
+    padding-left: 10px;
+}
+
+.fs_trigger_link {
+    border-width: 0px;
+}
+
+.fs_subform_container {
+    margin-left: 10px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: dotted;
+}
+
+.fs_checkbox_container {
+    width: 600px;
+}
+
+label.noteditable {
+    opacity: 0.6;
+}

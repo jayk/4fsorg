@@ -1,0 +1,3 @@
+[% META title = 'Paste Repository' %]
+<b>Submit a new paste:</b><br/><br/>
+[% PROCESS paste/form.tt %]

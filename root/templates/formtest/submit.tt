@@ -1,0 +1,8 @@
+<h2>Submission results</h2>
+<table border="1" style="border-collapse: collapse;" cellspacing="0" cellpadding="5">
+    <tr><th>Field name</th><th>Field Value</th></tr>
+    [% FOREACH item IN c.req.params %]
+    <tr><td>[% item.key %]</td><td>[% FOREACH val IN item.value %]'[% val %]'[% END %]</td></tr>
+    [% END %]
+</table>
+[% PROCESS index.tt %]

@@ -1,0 +1,16 @@
+[% META title = 'Paste Repository' %]
+[% IF paste %]
+<div id="paste_container">
+<span class="headline"><a name="top"></a>Paste [% paste.pastekey %]</span> &nbsp; <span class="smalllink"><a href="#pasteform">(edit)</a></span> &nbsp; <span class="smalllink"><a href="/paste/">(new paste)</a></span><br/><br/>
+[% IF related_pastes.size != 0 %]Related pastes: &nbsp;
+[%- FOREACH related_paste IN related_pastes %][% IF related_paste.pastekey != paste.pastekey %]<a href="/paste/[% related_paste.pastekey %]">[% related_paste.pastekey %]</a>[% ELSE %]<b><i>[% related_paste.pastekey %]</i></b>[% END %] [% END -%]
+[% END %]<br/>
+<pre id="paste_content">
+[% paste.content FILTER html %]
+</pre>
+</div>
+<a name="pasteform"></a><span class="smalllink"><a href="#top">Top</a></span><br/><br/>
+[% ELSE %]
+<p><b><i>No paste found with that id.</i></b> You can enter a new paste below...</p><br/>
+[% END %]
+[% PROCESS paste/form.tt %]

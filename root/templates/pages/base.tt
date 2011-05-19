@@ -1,0 +1,5 @@
+[% TRY %]
+   [% PROCESS $page %]       
+[% CATCH %]
+   [% PROCESS pages/notfound.tt %]
+[% END %]

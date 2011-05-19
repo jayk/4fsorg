@@ -1,0 +1,7 @@
+<div id="header"><img src="/static/images/4fs-logo.png" /><div id="header_text"> Form::Sensible [% template.title %]</div>
+<div id="nav_block">
+<a class="header_tab" href="/paste/">Pastes</a>
+<a class="header_tab" href="/forms/">Forms</a>
+<a class="header_tab" href="/pages/about">About</a>
+</div>
+</div>

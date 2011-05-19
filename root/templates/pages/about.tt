@@ -1,0 +1,19 @@
+<h1>About 4FS.org</h1>
+<p>4FS.org is a demonstration site / app for the <a
+href="http://search.cpan.org/dist/Form-Sensible">Form::Sensible</a> form
+processing and user-interface library.</p>
+<p>Form::Sensible is a user interface library designed to decouple the type of
+user interface from the application. Form::Sensible provides a way for your
+application to say 'I need this information, please ask the user for it'
+without the application needing to know the details of how the data collection
+is accomplished.</p>
+<p>We created this site as a showcase of Form::Sensible as well as a testbed for
+Form::Sensible functionality. The Paste and Form functionality are implemented
+entirely using Form::Sensible and related modules.  Currently, those modules include:
+<ul>
+    <li><a href="http://search.cpan.org/dist/Form-Sensible">Form::Sensible</a></li>
+    <li><a href="http://search.cpan.org/~jayk/Form-Sensible/lib/Form/Sensible/Renderer/HTML.pm">Form::Sensible::Renderer::HTML</a></li>
+</ul>
+</p>
+<p>If you experience problems with the site, have comments, or just want to say hello, drop by our 
+<a href="http://groups.google.com/group/formsensible">discussion group</a> and speak your piece.</p>

@@ -1,0 +1,3 @@
+<div id="paste_form">
+    [% paste_form.complete('/paste/submit', 'POST') %]
+</div>

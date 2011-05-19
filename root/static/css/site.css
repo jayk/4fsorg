@@ -1,0 +1,110 @@
+#paste_content {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 95%;
+    /*width: 800px;*/
+    margin-bottom: 60px;
+}
+
+body {
+    font-family: arial, Verdana, helvetica;
+    font-size: 16px;
+    margin: 0px;
+}
+
+#main {
+    margin: 10px;
+}
+
+.main_title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.headline {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.smalllink {
+    font-size: 16px;
+}
+
+#header {
+    margin: 0px;
+    padding-left: 10px;
+    background-color: #eeeeee;
+    border-bottom: 3px solid #666666;
+    font-size: 22px;
+    height: 125px;
+}
+
+#header img {
+    margin-right: 40px;
+}
+
+#header_text {
+    position: absolute;
+    top: 40px;
+    left: 350px;
+}
+
+#nav_block {
+    position: absolute;
+    top: 97px;
+    right: 10%;
+}
+
+.header_tab {
+    height: 24px;
+    float: left;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+a.header_tab  {
+    text-decoration: none;
+    color: black;
+}
+
+a.header_tab:hover {
+    color: white;
+    background-color: #990000;
+}
+
+#footer {
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: #eeeeee;
+    border-top: 1px solid #666666;
+    font-size: 22px;
+    height: 25px;
+    font-size: 12px;
+}
+
+#fs_paste_content_input {
+    padding: 5px;
+}
+
+/* This is the beginning of specific changes for the .fs_test_form - just to try things out */
+
+.fs_test_form {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+    
+}
+
+.fs_test_form .fs_label {
+    width: 120px;
+}
